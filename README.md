@@ -72,14 +72,20 @@ Users could choose to install Anaconda, if they want. If using Anaconda or Entho
     $ virtualenv env
     $ source env/bin/activate
 
+####Install Prerequisites
+##### Ubuntu
+    apt-get install libfreetype6-dev
+    apt-get install libpng-dev
+
+##### Fedora
+    dnf install libpng-devel.x86_64
+    dnf install freetype-devel.x86_64
+    dnf install lapack-devel
+   
 ####Install reqirements from requirements file
     $ pip install -r requirements.txt
 
-####Note: Make sure you have libraries for png & freetype.
-Ubuntu users can install the below
 
-    apt-get install libfreetype6-dev
-    apt-get install libpng-dev
 
 ###Script to check if installation is fine for the workshop
 Please execute the following at the command prompt
